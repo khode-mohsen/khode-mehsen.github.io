@@ -1,0 +1,20 @@
+body{
+  background: #eee;
+}
+.contact-us{
+
+}
+.magic{
+  text-align: center;
+  padding: 15px;
+  border-radius: 35%;
+}
+.contact-us-header{
+  float: right;
+}
+.contact-us-con{
+  margin:200px auto;
+  width: 90%;
+
+  padding: 20px;
+}
