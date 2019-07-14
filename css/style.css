@@ -1,20 +1,29 @@
 body{
-  background: #eee;
+  background-image: url('../media/newyork.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
 }
 .contact-us{
 
 }
 .magic{
   text-align: center;
-  padding: 15px;
-  border-radius: 35%;
+  padding: 35px;
+  border-radius: 45%;
+  background: rgba(233, 233, 233, 0.52);
+
+
 }
 .contact-us-header{
   float: right;
 }
 .contact-us-con{
-  margin:200px auto;
-  width: 90%;
-
+  background: rgba(233, 233, 233, 0.52);
+  margin:300px auto;
+  width: 100%;
   padding: 20px;
 }
+/* .container{
+  background: url('media/fox.png');
+} */
