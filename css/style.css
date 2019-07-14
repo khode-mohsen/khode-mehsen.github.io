@@ -1,29 +1,54 @@
 body{
-  background-image: url('../media/newyork.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-image: url('../media/newyork.jpg'); */
+  background-color: #0ac;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   display: block;
-}
-.contact-us{
 
 }
-.magic{
+
+.header-im{
   text-align: center;
-  padding: 35px;
-  border-radius: 45%;
-  background: rgba(233, 233, 233, 0.52);
+  margin: 0 auto;
 
-
-}
-.contact-us-header{
-  float: right;
-}
-.contact-us-con{
+  padding: 20px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
   background: rgba(233, 233, 233, 0.52);
-  margin:300px auto;
-  width: 100%;
+}
+
+.skills
+{
+  height: 700px;
+  width: auto;
+}
+
+.my-works
+{
+  text-align: center;
+  height: 700px;
+  width: auto;
+}
+
+.about-me
+{
+  text-align: center;
+  height: 700px;
+  width: auto;
+}
+
+#contact-me{
+  background: rgba(233, 233, 233, 0.52);
+  margin:100px auto;
+
+  width: 90%;
   padding: 20px;
 }
+
+.contact-me-header{
+  float: right;
+}
+
 /* .container{
   background: url('media/fox.png');
 } */

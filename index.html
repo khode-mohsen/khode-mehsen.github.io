@@ -18,24 +18,74 @@
 
   </head>
   <body>
-    <div class="container">
-      <div class="magic">
-        <h1>به وبلاگم خوش اومدین</h1>
-        <p>این وبلاگ در حال توسعه میباشد و فعلا قصد  استفاده ی واقعی از این وبلاگ رو ندارم ولی ممنون که به این پیج سر زدین</p>
+
+    <nav id="navbar" class="navbar navbar-nav bg-dark">
+      <div class="">
+        <a href="#skills" class="btn btn-dark">skills</a>
+        <a href="#my-works" class="btn btn-dark">my works</a>
+        <a href="#about-me" class="btn btn-dark">about me</a>
+        <a href="#contact-me" class="btn btn-dark">contact me</a>
+
+      </div>
+    </nav>
+      <div class="header-im">
+        <h2>سلام من محسن شکری هستم</h2>
+        <p>یک توسعه دهنده ی  فول استکه جونیور</p>
       </div>
       <br>
-      <div class="contact-us-con">
-        <h1 class="contact-us-header">ارتبط با من</h1>
+
+
+
+      <div class="skills bg-light" id="skills">
+        <div class="container">
+          <h1>skills</h1>
+          <p>
+            i am a web developer (jounior) <br>
+            i love make new things and use least technologies
+          </p>
+            <br><br>
+            <p>my skills</p>
+            <ul>
+              <li>
+                python , django , ptb , peewee
+              </li>
+              <li>
+                node-js , telegraf , sequelize
+              </li>
+              <li>
+                mysql , sqlite , nosql , json
+              </li>
+              <li>
+                html , css , bootstrap , jquery
+              </li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="my-works bg-dark" id="my-works">
+        <div class="container">
+          <h1>my works</h1>
+
+        </div>
+      </div>
+
+      <div class="about-me bg-light" id="about-me">
+        <h1>about me</h1>
+
+      </div>
+
+      <div class="contact-me" id="contact-me">
+        <h1 class="contact-me-header">ارتبط با من</h1>
         <p>telegram : <a href="http://t.me/khode_mohsen">khode_mohsen</a><br>
            phone : <a href="tel:09215734738">0921-573-4738</a><br>
            email : <a href="email:mohsen.shokri.hcs@gmail.com">mohsen.shokri.hcs@gmail.com</a>
-
         </p>
-        <script type="text/javascript">
-          $('a').css('color','lightgreen')
-          // $('a').hover(c=>c.css('color','red'))
-        </script>
       </div>
-    </div>
+
+    <script type="text/javascript">
+      $('a').css('color','lightgreen')
+      $('button').css('margin','0 10px')
+      // $('a').hover(c=>c.css('color','red'))
+    </script>
   </body>
 </html>
