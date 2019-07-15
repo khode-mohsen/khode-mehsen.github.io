@@ -30,11 +30,19 @@ body{
   width: auto;
 }
 
+#navbar{
+  position: sticky;
+  top: 0 ;
+}
 .about-me
 {
   text-align: center;
   height: 700px;
   width: auto;
+}
+.about-me img{
+  max-width: 10%;
+
 }
 
 #contact-me{
@@ -49,6 +57,17 @@ body{
   float: right;
 }
 
+.btn:hover{
+  background-color: rgb(154, 243, 250);
+  color: black;
+}
+
+/* btn a:hover{
+  color: black;
+} */
+#contact-me a{
+  color: darkgreen;
+}
 /* .container{
   background: url('media/fox.png');
 } */
