@@ -1,5 +1,5 @@
 body{
-  /* background-image: url('../media/newyork.jpg'); */
+  background-image: url('../media/fox.jpg');
   background-color: #555;
   /* background-repeat: no-repeat;
   background-size: cover; */
@@ -8,6 +8,8 @@ body{
 }
 
 .header-im{
+  opacity: 0.7;
+
   text-align: center;
   margin: 0 auto;
   padding: 20px;
@@ -17,12 +19,15 @@ body{
 }
 
 .skills{
+  opacity: 0.7;
   border-radius: 3%;
   height: 700px;
   width: auto;
 }
 
 .my-works{
+  opacity: 0.7;
+
   border-radius: 3%;
   color: white;
   text-align: center;
@@ -36,6 +41,7 @@ body{
 }
 .about-me{
   border-radius: 3%;
+  opacity: 0.7;
 
   text-align: center;
   height: 700px;
@@ -54,6 +60,8 @@ body{
 }
 
 #contact-me{
+  opacity: 0.7;
+
 
   background: #eee;
   margin:100px auto;
@@ -74,6 +82,10 @@ body{
 
 #contact-me a{
   color: darkgreen;
+}
+#contact-me a:hover{
+  color: white;
+  background: darkgreen;
 }
 /* .container{
   background: url('media/fox.png');
