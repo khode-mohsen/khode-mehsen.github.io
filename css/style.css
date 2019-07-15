@@ -1,6 +1,6 @@
 body{
   /* background-image: url('../media/newyork.jpg'); */
-  background-color: #0ac;
+  background-color: #555;
   /* background-repeat: no-repeat;
   background-size: cover; */
   display: block;
@@ -14,17 +14,20 @@ body{
   padding: 20px;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
-  background: rgba(233, 233, 233, 0.52);
+  background:#eee;
 }
 
 .skills
 {
+  border-radius: 3%;
   height: 700px;
   width: auto;
 }
 
 .my-works
 {
+  border-radius: 3%;
+  color: white;
   text-align: center;
   height: 700px;
   width: auto;
@@ -36,6 +39,8 @@ body{
 }
 .about-me
 {
+  border-radius: 3%;
+
   text-align: center;
   height: 700px;
   width: auto;
@@ -47,7 +52,8 @@ body{
 }
 
 #contact-me{
-  background: rgba(233, 233, 233, 0.52);
+
+  background: #eee;
   margin:100px auto;
 
   width: 90%;
