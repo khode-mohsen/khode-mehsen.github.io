@@ -5,7 +5,8 @@
     <title>mohsen shokri hcs</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css"><link>
     <link rel="stylesheet" href="./css/style.css"><link>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script type="text/javascript" src="js/jquery.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143818333-1"></script>
@@ -23,8 +24,8 @@
     <nav id="navbar" class="navbar navbar-nav bg-dark">
       <div class="">
         <a href="#skills" class="btn btn-dark"><i class="fa fa-book"></i> skills</a>
-        <a href="#my-works" class="btn btn-dark"><i class="fa fa-desktop"></i> my works</a>
-        <a href="#about-me" class="btn btn-dark"><i class="fa fa-user"></i> about me</a>
+        <a href="#my-works" class="btn btn-dark"><i class="fa fa-laptop-code"></i> my works</a>
+        <a href="#about-me" class="btn btn-dark"><i class="fa fa-user-astronaut"></i> about me</a>
         <a href="#contact-me" class="btn btn-dark"><i class="fa fa-phone"></i> contact me</a>
 
       </div>
@@ -46,20 +47,29 @@
           </p>
             <br><br>
             <p>my skills</p>
-            <ul>
-              <li>
-                python , django , ptb , peewee
-              </li>
-              <li>
-                node-js , telegraf , sequelize
-              </li>
-              <li>
-                mysql , sqlite , nosql , json
-              </li>
-              <li>
-                html , css , bootstrap , jquery
-              </li>
-            </ul>
+                <div class="bigs">
+                   <i class="devicon-django-plain-wordmark colored"></i>
+                    <i class="devicon-python-plain-wordmark "></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <br>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <br>
+                    <i class="devicon-mysql-plain-wordmark colored"></i>
+                    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <i class="devicon-linux-plain colored"></i>
+                    <br>
+                    <i class="devicon-github-plain-wordmark colored"></i>
+                    <i class="devicon-redis-plain-wordmark colored"></i>
+                    <i class="devicon-debian-plain-wordmark colored"></i>
+                    <br>
+                    <i class="devicon-git-plain-wordmark colored"></i>
+                    <i class="devicon-ubuntu-plain-wordmark colored"></i>
+                    <i class="devicon-jquery-plain-wordmark colored"></i>
+                    <br>
+                    <i class="devicon-trello-plain-wordmark colored"></i>
+                </div>
         </div>
       </div>
 
@@ -90,6 +100,11 @@
     <script type="text/javascript">
       // $('a').css('color','white')
       $('button').css('margin','0 10px')
+      $('.bigs i').css('font-size','60px')
+      $('.bigs').css('text-align','center')
+      $('.bigs i').css('margin','20px')
+
+
       // $('a').hover(c=>c.css('color','red'))
     </script>
     <script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="media/arrow35.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
