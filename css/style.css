@@ -10,22 +10,19 @@ body{
 .header-im{
   text-align: center;
   margin: 0 auto;
-
   padding: 20px;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   background:#eee;
 }
 
-.skills
-{
+.skills{
   border-radius: 3%;
   height: 700px;
   width: auto;
 }
 
-.my-works
-{
+.my-works{
   border-radius: 3%;
   color: white;
   text-align: center;
@@ -37,14 +34,19 @@ body{
   position: sticky;
   top: 0 ;
 }
-.about-me
-{
+.about-me{
   border-radius: 3%;
 
   text-align: center;
   height: 700px;
   width: auto;
 }
+#avatar{
+    border: 2px dotted rgb(33, 36, 28);
+    width: 200px;
+    height: auto;
+}
+
 .about-me img{
   width: 300px;
   height: 300px;
