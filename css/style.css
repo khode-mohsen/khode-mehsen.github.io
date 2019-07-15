@@ -42,7 +42,7 @@ body{
   width: auto;
 }
 #avatar{
-    border: 2px dotted rgb(33, 36, 28);
+    border: 2px solid rgb(33, 36, 28);
     width: 200px;
     height: auto;
 }
