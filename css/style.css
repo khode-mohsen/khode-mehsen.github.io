@@ -38,7 +38,9 @@ body{
 #navbar{
   position: sticky;
   top: 0 ;
+  z-index: 1;
 }
+
 .about-me{
   border-radius: 3%;
   opacity: 0.8;
