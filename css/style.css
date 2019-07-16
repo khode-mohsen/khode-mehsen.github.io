@@ -8,7 +8,7 @@ body{
 }
 
 .header-im{
-  opacity: 0.7;
+  opacity: 0.8;
 
   text-align: center;
   margin: 0 auto;
@@ -19,14 +19,14 @@ body{
 }
 
 .skills{
-  opacity: 0.7;
+  opacity: 0.8;
   border-radius: 3%;
   height: 700px;
   width: auto;
 }
 
 .my-works{
-  opacity: 0.7;
+  opacity: 0.8;
 
   border-radius: 3%;
   color: white;
@@ -41,8 +41,7 @@ body{
 }
 .about-me{
   border-radius: 3%;
-  opacity: 0.7;
-
+  opacity: 0.8;
   text-align: center;
   height: 700px;
   width: auto;
@@ -60,7 +59,7 @@ body{
 }
 
 #contact-me{
-  opacity: 0.7;
+  opacity: 0.8;
 
 
   background: #eee;
