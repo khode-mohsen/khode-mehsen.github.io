@@ -1,8 +1,8 @@
 body{
-  background-image: url('../media/fox.jpg');
+  background-image: url('../media/wall.jpg');
   background-color: #555;
-  /* background-repeat: no-repeat;
-  background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
   display: block;
 
 }
@@ -21,7 +21,7 @@ body{
 .skills{
   opacity: 0.8;
   border-radius: 3%;
-  height: 700px;
+  height: 110%;
   width: auto;
 }
 
@@ -31,7 +31,7 @@ body{
   border-radius: 3%;
   color: white;
   text-align: center;
-  height: 700px;
+  height: 110%;
   width: auto;
 }
 
@@ -45,7 +45,7 @@ body{
   border-radius: 3%;
   opacity: 0.8;
   text-align: center;
-  height: 700px;
+  height: 110%;
   width: auto;
 }
 #avatar{
@@ -80,7 +80,20 @@ body{
   color: black;
 }
 
+.bigs{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.container{
+  text-align: center;
+}
 
+.bigs i{
+  font-size: 600%;
+  width: 18%;
+
+}
 #contact-me a{
   color: darkgreen;
 }
