@@ -8,8 +8,6 @@ body{
 }
 
 .header-im{
-  opacity: 0.8;
-
   text-align: center;
   margin: 0 auto;
   padding: 20px;
@@ -19,15 +17,12 @@ body{
 }
 
 .skills{
-  opacity: 0.8;
   border-radius: 3%;
   height: 110%;
   width: auto;
 }
 
 .my-works{
-  opacity: 0.8;
-
   border-radius: 3%;
   color: white;
   text-align: center;
@@ -43,7 +38,6 @@ body{
 
 .about-me{
   border-radius: 3%;
-  opacity: 0.8;
   text-align: center;
   height: 110%;
   width: auto;
@@ -102,6 +96,11 @@ body{
   color: white;
   background: darkgreen;
 }
-/* .container{
-  background: url('media/fox.png');
-} */
+
+.gohight{
+  position: sticky;
+  bottom: 5%;
+  left: 5%;
+  float: right;
+  background-image: url('../media/arrow35.png');
+}

@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta property="og:url"                content="https://khode-mohsen.github.io" />
     <!-- <meta property="og:type"               content="article" /> -->
-    <meta property="og:title"              content="mohsen shokri hcs" />
-    <meta property="og:description"        content="my personal blog and my first project :)" />
-    <meta property="og:image"              content="https://khode-mohsen.github.io/media/newyork.jpg" />
+
+    <!-- <meta property="og:image"              content="https://khode-mohsen.github.io/media/newyork.jpg" /> -->
+
+
+
+
+
+
+
+
+
+
+
     <meta charset="utf-8">
     <title>mohsen shokri hcs</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css"><link>
@@ -13,6 +22,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/gototop.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143818333-1"></script>
     <script>
@@ -22,7 +32,10 @@
 
       gtag('config', 'UA-143818333-1');
     </script>
-
+    <meta property="og:title"              content="empty t" />
+    <meta property="og:description"        content="empty d" />
+    <meta name="og:site_name" content="khode-mohsen"/>
+    <meta property="og:url"                content="https://khode-mohsen.github.io" />
   </head>
   <body>
 
@@ -53,16 +66,16 @@
 
                 <div class="bigs">
                    <i class="devicon-django-plain-wordmark colored"></i>
-                    <i class="devicon-python-plain-wordmark "></i>
+                    <i class="devicon-python-plain-wordmark colored" style="color:blue"></i>
                     <i class="devicon-css3-plain-wordmark colored"></i>
                     <br>
                     <i class="devicon-html5-plain-wordmark colored"></i>
                     <i class="devicon-nodejs-plain-wordmark colored"></i>
-                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-javascript-plain colored" style="color:red"></i>
                     <br>
                     <i class="devicon-mysql-plain-wordmark colored"></i>
                     <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                    <i class="devicon-linux-plain colored"></i>
+                    <i class="devicon-linux-plain colored" style="color:gray "></i>
                     <br>
                     <i class="devicon-github-plain-wordmark colored"></i>
                     <i class="devicon-redis-plain-wordmark colored"></i>
@@ -101,12 +114,23 @@
            <i class="fab fa-google"></i>mail : <a href="email:mohsen.shokri.hcs@gmail.com">mohsen.shokri.hcs@gmail.com</a>
         </p>
       </div>
-
+    <button class="btn gohight" onclick="gototop()">gototop</button>
     <script type="text/javascript">
+      function gototop(){
+        document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+      }
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementsByClassName("gohight")[0].style.display = "block";
+  } else {
+    document.getElementsByClassName("gohight")[0].style.display = "none";
+  }
+}
       $('button').css('margin','0 10px')
       $('.bigs').css('text-align','center')
       $('.bigs i').css('margin','20px')
     </script>
-    <script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="media/arrow35.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
   </body>
 </html>
