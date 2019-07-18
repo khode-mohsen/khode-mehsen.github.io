@@ -102,5 +102,7 @@ body{
   bottom: 5%;
   left: 5%;
   float: right;
-  background-image: url('../media/arrow35.png');
+  width: 5%;
+  height: auto;
+
 }
