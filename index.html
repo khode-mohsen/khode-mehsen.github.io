@@ -40,13 +40,20 @@
   <body>
 
     <nav id="navbar" class="navbar navbar-nav bg-dark">
-      <div class="">
-        <a href="#skills" class="btn btn-dark"><i class="fa fa-book"></i> skills</a>
-        <a href="#my-works" class="btn btn-dark"><i class="fa fa-laptop-code"></i> my works</a>
-        <a href="#about-me" class="btn btn-dark"><i class="fa fa-user-astronaut"></i> about me</a>
-        <a href="#contact-me" class="btn btn-dark"><i class="fa fa-phone"></i> contact me</a>
-
-      </div>
+      <ul class="nav ">
+        <li class="nav-item">
+          <a href="#skills" class="btn btn-dark active "><i class="fa fa-book"></i> skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#my-works" class="btn btn-dark"><i class="fa fa-laptop-code"></i> my works</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about-me" class="btn btn-dark"><i class="fa fa-user-astronaut"></i> about me</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact-me" class="btn btn-dark"><i class="fa fa-phone"></i> contact me</a>
+        </li>
+      </li>
     </nav>
       <div class="header-im">
         <h2>hi i am il</h2>
@@ -128,9 +135,13 @@
     document.getElementsByClassName("gohight")[0].style.display = "none";
   }
 }
-      $('button').css('margin','0 10px')
-      $('.bigs').css('text-align','center')
-      $('.bigs i').css('margin','20px')
+
+      // on click btns in nav give class active
+      $('nav > ul > li > a').on('click' , function cl () {
+        		$('nav > ul > li > a').removeClass('active');
+        		$(this).addClass('active');
+      })
+
     </script>
   </body>
 </html>

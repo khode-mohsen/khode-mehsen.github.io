@@ -31,9 +31,20 @@ body{
 }
 
 #navbar{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   position: sticky;
   top: 0 ;
   z-index: 1;
+  /* display:inline-flex;
+  flex-direction: column; */
+}
+.navbar-dark .nav-item > .nav-link.active  {
+    color:white;
+}
+.active{
+  color: tomato;
 }
 
 .about-me{
@@ -87,6 +98,7 @@ body{
 .bigs i{
   font-size: 600%;
   width: 18%;
+  margin: 4%;
 
 }
 #contact-me a{
