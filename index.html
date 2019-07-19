@@ -121,20 +121,13 @@
            <i class="fab fa-google"></i>mail : <a href="email:mohsen.shokri.hcs@gmail.com">mohsen.shokri.hcs@gmail.com</a>
         </p>
       </div>
-    <input type="image" src="media/angle-top.svg" class="gohight" onclick="gototop()"></input>
+    <input type="image" src="media/angle-top.svg" class="gohight" ></input>
     <script type="text/javascript">
-      function gototop(){
-        document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-      }
-      window.onscroll = function() {scrollFunction()};
-      function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementsByClassName("gohight")[0].style.display = "block";
-  } else {
-    document.getElementsByClassName("gohight")[0].style.display = "none";
-  }
-}
+      // animate scroll to top
+      $(_=>{
+        // short for $(document).ready
+        $('.gohight').click(_=>$('html,body').animate({scrollTop:0}))
+			   },3000)
 
       // on click btns in nav give class active
       $('nav > ul > li > a').on('click' , function cl () {
